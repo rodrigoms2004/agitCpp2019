@@ -16,6 +16,13 @@ Using g++ for multiple files
 g++ -o programName.o programName.cpp libProgram.cpp libProgram.h
 ```
 
+
+Old GCC
+
+```
+g++ -o programName.o programName.cpp libProgram.cpp libProgram.h -std=c++11
+```
+
 ### Running
 
 Running it
