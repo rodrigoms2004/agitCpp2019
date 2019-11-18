@@ -41,3 +41,5 @@ Running it
 [C++ Lovers - Portuguese Content](https://www.cpplovers.com/tutoriais)
 [Mente binária - Portuguese Content](https://www.mentebinaria.com.br)
 
+[Install and Update GCC - Ubuntu 18.04](https://linuxize.com/post/how-to-install-gcc-compiler-on-ubuntu-18-04/)
+
