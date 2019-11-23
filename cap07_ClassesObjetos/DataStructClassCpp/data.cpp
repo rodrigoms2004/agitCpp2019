@@ -13,6 +13,7 @@ void Data::alterar(short dia, short mes, short ano) {
 
 void Data::imprimir () const  // não permite alterar, const = read only
 {  
+  ++contador;
   string anoBissextoStr = anoBissexto() ? "SIM" : "NÃO";
 
   if (m_ok) {

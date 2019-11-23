@@ -16,6 +16,7 @@ class Data
   short m_mes = 0;
   short m_ano = 0;
   bool m_ok = false;
+  mutable int contador = 0;   // permite alterações mesmo em métodos const
 
 public:
   enum {ANO_MIN = 1800, ANO_MAX = 2100};  
