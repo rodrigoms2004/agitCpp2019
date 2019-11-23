@@ -116,10 +116,21 @@ public:
     return comparar(other) == 0;
   }
   
-  // inline bool operator!=(const Data &other) const
-  // {
-  //   return comparar(other) != 0;
-  // }
+  inline bool operator!=(const Data &other) const
+  {
+    return comparar(other) != 0;
+  }
+
+  inline bool operator>=(const Data &other) const
+  {
+    return comparar(other) >= 0;
+  }
+
+  inline bool operator<=(const Data &other) const
+  {
+    return comparar(other) <= 0;
+  }
+
 
 
 };
