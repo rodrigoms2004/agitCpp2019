@@ -1,0 +1,10 @@
+C++ 03/11
+  Cria os construtores:
+  X();                          // Construtor padrão
+  X(const &other)               // construtor de cópia
+  X &operator=(const X &other)  // operador de atribuição
+
+C++ 11
+  Cria mais dois construtores:
+  X(X && other)                 // Construtor de move
+  X &operator(X &&other)        // operador de move
