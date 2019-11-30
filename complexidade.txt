@@ -1,0 +1,14 @@
+O(1)
+O(log n)
+O(n)
+O(log n*n)
+O(n^2)
+O(n^3)
+O(n^n)
+
+log na base 2
+
+log 16 = 4
+2^4 
+Exemplo: 4 é o numero de buscas para encontrar um elemento
+
